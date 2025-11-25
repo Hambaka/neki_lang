@@ -1,0 +1,7 @@
+"\(T\) [\w\s!@#$%^&*()_+\-=$\]";':,.<>/?\\~]*\n$
+// This regex matches a line that starts with "T" followed by any number of whitespace,
+// word characters, exclamation marks, at signs, dollar signs, percent signs,
+// ampersands, asterisks, underscores, plus signs, hyphens, equal signs, square
+// brackets, single quotes, colons, commas, periods, less-than signs, greater-than
+// signs, forward slashes, question marks, backslashes, tildes, and ends with a
+// newline character.

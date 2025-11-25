@@ -1,0 +1,167 @@
+{
+  "cinematic": [
+    // String
+    "^/panels/(0|[1-9][0-9]*)/text$"
+  ],
+  "codex": [
+    // String
+    "^/title$",
+    "^/description$",
+    // String array
+    "^/contentPages$"
+  ],
+  "config.patch": [
+    // String array
+    "^/accuse/(default|nekistripes|neki)/(default|neki)$",
+    "^/alert/(default|nekistripes|neki)/(default|neki)$",
+    "^/attack/(nekistripes|neki)/default$",
+    "^/beacon/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/cantReach/(nekistripes|neki)/default$",
+    "^/cheerOn/(nekistripes|neki)/default$",
+    "^/converse/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|generic|human|nekistripes|neki)$",
+    "^/enclosedArea/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/encourage/default/neki$",
+    "^/end/default/neki$",
+    "^/final/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/follow/(default|apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+    "^/greeting/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|generic|nekistripes|neki)$",
+    "^/hail/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|apex|avian|floran|glitch|human|hylotl|novakid|neki)$",
+    "^/helpme/(default|nekistripes|neki)/(default|neki)$",
+    "^/helpthem/default/neki$",
+    "^/killedTarget/(nekistripes|neki)/default$",
+    "^/lostTarget/(nekistripes|neki)/default$",
+    "^/merchantEnd/(apex|avian|floran|glitch|human|hylotl|novakid)/neki$",
+    "^/merchantStart/(apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+    "^/otherDeed/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/outOfSight/(nekistripes|neki)/default$",
+    "^/reattack/(nekistripes|neki)/default$",
+    "^/rent/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/safe/(default|nekistripes|neki)/(default|neki)$",
+    "^/severe/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/start/default/neki$",
+    "^/tagCriteria/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+    "^/tout/(default|apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+    "^/welcome/(default|apex|avian|floran|glitch|human|hylotl|novakid)/neki$"
+  ],
+  "config": [
+    // String
+    "^/gui/(clear|count)/(caption|value)$",
+    "^/paneLayout/windowtitle/(subtitle|title)$",
+    "^/paneLayout/(lbl(Schematics|Producttitle|Product)|btn(StopCraft|Craft))/(value|caption)$",
+    "^/paneLayout/filter/hint$"
+  ],
+  "itemdescription": [
+    // String
+    "^/(damagePerShotTitleLabel|speedTitleLabel|armorLabelTitle)/value$"
+  ],
+  "tooltip": [
+    // String
+    "^/(damagePerShotTitleLabel|speedTitleLabel)/value$"
+  ],
+  "activeitem": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "back": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "head": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "chest": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "legs": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "item": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "unlock": [
+    // String
+    "^/(shortdescription|description)$"
+  ],
+  "inspectiontool.patch": [
+    // String array
+    "^/(outOfRangeText|nothingThereText)/neki$"
+  ],
+  "monstertype.patch": [
+    // String array
+    "^/baseParameters/dialog/(intro|start|death)/default/neki$"
+  ],
+  "npctype": [
+    // String
+    "^/scriptConfig/crew/role/(field|name)$",
+    "^/identity/name$",
+    "^/scriptConfig/nekiStripesMultipleRecruitmentDisallowedText$",
+    // String array
+    "^/scriptConfig/dialog/crewmember/roleDescription/(default|neki)/default$",
+    "^/scriptConfig/crew/ranks$",
+    "^/scriptConfig/dialog/converse/(default|nekistripes|neki)/(default|apex|neki)$"
+  ],
+  "npctype.patch": [
+    // String array
+    "^/scriptConfig/dialog/converse/(default|apex|avian|floran|glitch|human|hylotl|neki)/(default|neki)$",
+    "^/scriptConfig/dialog/baron/(start|showRelic|alerted|finalWaveComplete|missionComplete)/default/neki$",
+    "^/scriptConfig/dialog/koichi/greet/default/neki$",
+    "^/scriptConfig/dialog/lana/(start|mid|end)/default/neki$",
+    "^/scriptConfig/dialog/floranmission(switch|start)/(introduction|end|hello|stuck)/default/neki$",
+    "^/scriptConfig/dialog/endscene/smalltalk/default/neki$",
+    "^/scriptConfig/dialog/tonauac/(start|continue|statueDescription|endTour|feelingTired|doorGreeting|doorOpened|giveRelic|end)/default/neki$",
+    "^/scriptConfig/dialog/merchant/(start|welcome|end|tout)/default/neki$",
+    "^/scriptConfig/dialog/(speak|complain|attack)/(default|human)/neki$",
+    "^/scriptConfig/dialog/crewmember/(offer|roleDescription|respawned|unfollow|follow|cantreach|fieldBenefit|combatBenefit)/(nekistripes|neki)/default$"
+  ],
+  "object": [
+    // String
+    "^/(shortdescription|description|(apex|avian|floran|glitch|human|hylotl|novakid|neki)Description)$",
+    "^/(denied|empty)Text$",
+    "^/dialog/wake(Up|Player)/(0|[1-9][0-9]*)/0$",
+    // String array
+    "^/chat(Apex|Glitch|Novakid|Other)$"
+  ],
+  "object.patch": [
+    // String
+    "^/nekiDescription$"
+  ],
+  "questtemplate": [
+    // String
+    "^/(completionText|title|text)$",
+    "^/scriptConfig/descriptions/(findStripes|alreadyHaveStripes)$"
+  ],
+  "radiomessages.patch": [
+    // String
+    "^/(nekinofoodpoisontutorial2|nekinofoodpoisontutorial|nekipoisontutorial|nekipoison|pickupflagneki)/text$"
+  ],
+  "species": [
+    // String
+    "^/charCreationTooltip/(description|subTitle|title)$",
+    // String array
+    "^/charGenTextLabels$"
+  ],
+  "statuseffect": [
+    // String
+    "^/label$"
+  ],
+  "tech": [
+    // String
+    "^/(shortDescription|description)$"
+  ],
+  "material.patch": [
+    // String
+    "^/nekiDescription$"
+  ],
+  "matmod.patch": [
+    // String
+    "^/nekiDescription$"
+  ],
+  "json": [
+    // String
+    "^/(head|chest|legs|back)/(0|[1-9][0-9]*)/shortdescription$"
+  ]
+}

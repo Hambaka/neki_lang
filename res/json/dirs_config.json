@@ -1,0 +1,18 @@
+// Whitelist
+[
+  "cinematics",
+  "codex",
+  "dialog",
+  "interface",
+  "items",
+  "monsters",
+  "npcs",
+  "objects",
+  "quests",
+  "radiomessages",
+  "species",
+  "stats",
+  "tech",
+  "tiles",
+  "wardrobe"
+]

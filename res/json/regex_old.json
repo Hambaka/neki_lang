@@ -1,0 +1,221 @@
+{
+  "cinematic": {
+    "string_patterns": [
+      "^/panels/(0|[1-9][0-9]*)/text$"
+    ],
+    "array_patterns": []
+  },
+  "codex": {
+    "string_patterns": [
+      "^/title$",
+      "^/description$"
+    ],
+    "array_patterns": [
+      "^/contentPages$"
+    ]
+  },
+  "config.patch": {
+    "string_patterns": [],
+    "array_patterns": [
+      "^/accuse/(default|nekistripes|neki)/(default|neki)$",
+      "^/alert/(default|nekistripes|neki)/(default|neki)$",
+      "^/attack/(nekistripes|neki)/default$",
+      "^/beacon/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/cantReach/(nekistripes|neki)/default$",
+      "^/cheerOn/(nekistripes|neki)/default$",
+      "^/converse/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|generic|human|nekistripes|neki)$",
+      "^/enclosedArea/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/encourage/default/neki$",
+      "^/end/default/neki$",
+      "^/final/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/follow/(default|apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+      "^/greeting/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|generic|nekistripes|neki)$",
+      "^/hail/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|apex|avian|floran|glitch|human|hylotl|novakid|neki)$",
+      "^/helpme/(default|nekistripes|neki)/(default|neki)$",
+      "^/helpthem/default/neki$",
+      "^/killedTarget/(nekistripes|neki)/default$",
+      "^/lostTarget/(nekistripes|neki)/default$",
+      "^/merchantEnd/(apex|avian|floran|glitch|human|hylotl|novakid)/neki$",
+      "^/merchantStart/(apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+      "^/otherDeed/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/outOfSight/(nekistripes|neki)/default$",
+      "^/reattack/(nekistripes|neki)/default$",
+      "^/rent/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/safe/(default|nekistripes|neki)/(default|neki)$",
+      "^/severe/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/start/default/neki$",
+      "^/tagCriteria/(default|apex|avian|floran|glitch|human|hylotl|novakid|nekistripes|neki)/(default|neki)$",
+      "^/tout/(default|apex|avian|floran|glitch|human|hylotl|novakid)/(default|neki)$",
+      "^/welcome/(default|apex|avian|floran|glitch|human|hylotl|novakid)/neki$"
+    ]
+  },
+  "config": {
+    "string_patterns": [
+      "^/gui/(clear|count)/(caption|value)$",
+      "^/paneLayout/windowtitle/(subtitle|title)$",
+      "^/paneLayout/(lbl(Schematics|Producttitle|Product)|btn(StopCraft|Craft))/(value|caption)$",
+      "^/paneLayout/filter/hint$"
+    ],
+    "array_patterns": []
+  },
+  "itemdescription": {
+    "string_patterns": [
+      "^/(damagePerShotTitleLabel|speedTitleLabel|armorLabelTitle)/value$"
+    ],
+    "array_patterns": []
+  },
+  "tooltip": {
+    "string_patterns": [
+      "^/(damagePerShotTitleLabel|speedTitleLabel)/value$"
+    ],
+    "array_patterns": []
+  },
+  "activeitem": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "back": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "head": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "chest": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "legs": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "item": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "unlock": {
+    "string_patterns": [
+      "^/(shortdescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "inspectiontool.patch": {
+    "string_patterns": [],
+    "array_patterns": [
+      "^/(outOfRangeText|nothingThereText)/neki$"
+    ]
+  },
+  "monstertype.patch": {
+    "string_patterns": [],
+    "array_patterns": [
+      "^/baseParameters/dialog/(intro|start|death)/default/neki$"
+    ]
+  },
+  "npctype": {
+    "string_patterns": [
+      "^/scriptConfig/crew/role/(field|name)$",
+      "^/identity/name$",
+      "^/scriptConfig/nekiStripesMultipleRecruitmentDisallowedText$"
+    ],
+    "array_patterns": [
+      "^/scriptConfig/dialog/crewmember/roleDescription/(default|neki)/default$",
+      "^/scriptConfig/crew/ranks$",
+      "^/scriptConfig/dialog/converse/(default|nekistripes|neki)/(default|apex|neki)$"
+    ]
+  },
+  "npctype.patch": {
+    "string_patterns": [],
+    "array_patterns": [
+      "^/scriptConfig/dialog/converse/(default|apex|avian|floran|glitch|human|hylotl|neki)/(default|neki)$",
+      "^/scriptConfig/dialog/baron/(start|showRelic|alerted|finalWaveComplete|missionComplete)/default/neki$",
+      "^/scriptConfig/dialog/koichi/greet/default/neki$",
+      "^/scriptConfig/dialog/lana/(start|mid|end)/default/neki$",
+      "^/scriptConfig/dialog/floranmission(switch|start)/(introduction|end|hello|stuck)/default/neki$",
+      "^/scriptConfig/dialog/endscene/smalltalk/default/neki$",
+      "^/scriptConfig/dialog/tonauac/(start|continue|statueDescription|endTour|feelingTired|doorGreeting|doorOpened|giveRelic|end)/default/neki$",
+      "^/scriptConfig/dialog/merchant/(start|welcome|end|tout)/default/neki$",
+      "^/scriptConfig/dialog/(speak|complain|attack)/(default|human)/neki$",
+      "^/scriptConfig/dialog/crewmember/(offer|roleDescription|respawned|unfollow|follow|cantreach|fieldBenefit|combatBenefit)/(nekistripes|neki)/default$"
+    ]
+  },
+  "object": {
+    "string_patterns": [
+      "^/(shortdescription|description|(apex|avian|floran|glitch|human|hylotl|novakid|neki)Description)$",
+      "^/(denied|empty)Text$",
+      "^/dialog/(wakeUp|wakePlayer)/(0|[1-9][0-9]*)/0$"
+    ],
+    "array_patterns": [
+      "^/chat(Apex|Glitch|Novakid|Other)$"
+    ]
+  },
+  "object.patch": {
+    "string_patterns": [
+      "^/nekiDescription$"
+    ],
+    "array_patterns": []
+  },
+  "questtemplate": {
+    "string_patterns": [
+      "^/(completionText|title|text)$",
+      "^/scriptConfig/descriptions/(findStripes|alreadyHaveStripes)$"
+    ],
+    "array_patterns": []
+  },
+  "radiomessages.patch": {
+    "string_patterns": [
+      "^/(nekinofoodpoisontutorial2|nekinofoodpoisontutorial|nekipoisontutorial|nekipoison|pickupflagneki)/text$"
+    ],
+    "array_patterns": []
+  },
+  "species": {
+    "string_patterns": [
+      "^/charCreationTooltip/(description|subTitle|title)$"
+    ],
+    "array_patterns": [
+      "^/charGenTextLabels$"
+    ]
+  },
+  "statuseffect": {
+    "string_patterns": [
+      "^/label$"
+    ],
+    "array_patterns": []
+  },
+  "tech": {
+    "string_patterns": [
+      "^/(shortDescription|description)$"
+    ],
+    "array_patterns": []
+  },
+  "material.patch": {
+    "string_patterns": [
+      "^/nekiDescription$"
+    ],
+    "array_patterns": []
+  },
+  "matmod.patch": {
+    "string_patterns": [
+      "^/nekiDescription$"
+    ],
+    "array_patterns": []
+  },
+  "json": {
+    "string_patterns": [
+      "^/(head|chest|legs|back)/(0|[1-9][0-9]*)/shortdescription$"
+    ],
+    "array_patterns": []
+  }
+}
